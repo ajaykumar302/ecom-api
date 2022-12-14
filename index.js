@@ -36,6 +36,7 @@ mongoose
   app.get("/api/data", (req,res)=>{
     res.send("successfull");
   })
+ 
 
   app.use("/api/auth", authRoute); 
  
